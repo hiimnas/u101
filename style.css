@@ -14,6 +14,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #E7D2B1;
+}
+
 header {
     background-color: ghostwhite;
     display: flex;
@@ -70,7 +74,7 @@ header>.main {
 .pr-button {
     background-color: crimson;
     color: ghostwhite;
-    padding: 10px 12px;
+    padding: 10px;
     border-radius: 100%;
     width: fit-content;
 }
@@ -83,6 +87,7 @@ header>.main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 6px 0;
 }
 
 .short-desc {
