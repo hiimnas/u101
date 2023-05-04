@@ -1,2 +1,2 @@
 # u101
-”Pet Care“ demo project
+A portfolio to present my work on the U101 design module at the Open University. 
