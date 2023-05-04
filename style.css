@@ -3,7 +3,14 @@
 @media (max-width: 680px) {
     header {
         flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
     }
+    
+    header div {
+        width: fit-content !important;
+    }
+    
     .jumbotron {
         padding: 0 10px !important;
     }
