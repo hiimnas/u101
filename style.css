@@ -85,6 +85,11 @@ header>.main {
     padding: 10px 15px;
     border-radius: 100%;
     width: fit-content;
+    transition: background-color 1s;
+}
+
+.pr-button:hover {
+    background-color: darkred;
 }
 
 .tma {
