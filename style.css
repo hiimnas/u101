@@ -14,6 +14,9 @@
     #tma1 {
         background-image: url('https://drive.google.com/uc?export=view&id=1byrjvZrYL3GQYGM-1_mCLGNU-vKt8F8u') !important;
     }
+    #tma2 {
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('https://drive.google.com/uc?export=view&id=1c2y_iZtcj3LUPLSO8vCqq8zNtfzP6VPh') !important;
+    }
 }
 
 * {
