@@ -1,0 +1,139 @@
+@import url('https://use.fontawesome.com/releases/v6.4.0/css/all.css');
+
+@media (max-width: 1000px) {
+    header {
+        flex-direction: column;
+    }
+    .jumbotron {
+        padding: 0 10px !important;
+    }
+    .short-desc {
+        width: fit-content !important;
+    }
+    #tma1 {
+        background-image: url('https://drive.google.com/uc?export=view&id=1byrjvZrYL3GQYGM-1_mCLGNU-vKt8F8u') !important;
+    }
+}
+
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #E7D2B1;
+}
+
+header {
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3vw;
+}
+
+header>div {
+    width: fit-content;
+}
+
+.ou-logo {
+    height: 64px;
+    margin: auto 12px;
+}
+
+header>.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+}
+
+.hr-link {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbotron {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.56)), url('https://drive.google.com/uc?export=view&id=1bcowFn2fAKJ3mad3HfLnUbWg-J_h_38s');    background-size: cover;
+    color: ghostwhite;
+    height: calc(97vh - 72px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25vw;
+    text-align: center;
+}
+
+.jumbotron>h1 {
+    padding: 12px 0;
+}
+
+.jumbotron>p {
+    padding: 12px 0;
+}
+
+.jumbotron>h3 {
+    padding: 12px 0;
+}
+
+.pr-button {
+    background-color: crimson;
+    color: ghostwhite;
+    padding: 10px 15px;
+    border-radius: 100%;
+    width: fit-content;
+}
+
+.tma {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 6px 0;
+}
+
+.short-desc {
+    width: 42vw;
+    height: fit-content;
+    text-align: center;
+    background-color: rgba(1, 1, 1, 0.66);
+    border-radius: 7px;
+    color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.short-desc p {
+    margin: 16px 0;
+}
+
+#tma1 {
+    background-image: url('https://drive.google.com/uc?export=view&id=1bNHs0jKWG8zum7EIcDSJ5_pxqJO2ma7R');
+}
+
+#tma2 {
+    background-image: url('https://drive.google.com/uc?export=view&id=1bPsf1_cWM5mpfPRMek4Vyw7aEdXECsTi');
+}
+
+#tma3 {
+    background-image: url('https://drive.google.com/uc?export=view&id=1bU8lskXoCit8CG5PGFO0wTksOkYy71G7');
+}
+
+#tma4 {
+    background-image: url('https://drive.google.com/uc?export=view&id=1bWOOhSchySqupnE1hK75Utwi4LLLD0kq');
+}
+
+footer {
+    background-color: ghostwhite;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
