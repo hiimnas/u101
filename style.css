@@ -17,6 +17,9 @@
     #tma2 {
         background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('https://drive.google.com/uc?export=view&id=1c2y_iZtcj3LUPLSO8vCqq8zNtfzP6VPh') !important;
     }
+    #tma3 {
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('https://drive.google.com/uc?export=view&id=1cqPeW9hDAhKpoVefWKYd9KMqEl6A9pbm') !important;
+    }
     .tma4 {
         display: flex !important;
         flex-direction: column;
